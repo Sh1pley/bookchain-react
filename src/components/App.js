@@ -12,7 +12,6 @@ import Carousel from './Carousel';
 import request from 'superagent';
 import _ from 'lodash';
 import '../css/App.css';
-const API = require('./config.json');
 
 class App extends Component {
   constructor(props) {
